@@ -1,0 +1,18 @@
+{
+  "name": "stremio-cartoon-network",
+  "version": "1.0.0",
+  "description": "Stremio catalog add-on: every Cartoon Network series and movie, plus classic Hanna-Barbera.",
+  "main": "addon.js",
+  "private": true,
+  "scripts": {
+    "start": "node addon.js",
+    "build": "node scripts/build-catalog.js",
+    "export": "node scripts/export-static.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "1.6.10"
+  }
+}
